@@ -30,7 +30,7 @@ Criei 3 projetos
 - Domain
 - Infra
 
-Onde:
+### Onde:
 - API
   - É o projeto Web API e contém:
     - Application: Tentei utilizar esta pasta lógica como se fosse a camada "Application" do padrão CQRS, contendo então os Commands e Queries
