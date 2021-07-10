@@ -10,6 +10,19 @@ Projeto consiste em agendamento de churrascos.
 - MediatR 9.0.0
 - SqlServer 2019
 
+## Endpoints liberados
+-GET - /api/v1/Churrasco/resumo/{type}
+  - type = (0-Todos, 1-Próximos, 2-Passados)
+  - Retorna dados resumidos dos churrascos de acordo com parâmetro type
+-GET - /api/v1/Churrasco/analitico
+  - Retorna dados resumidos e lista de participantes do churrasco especificado
+-POST - /api/v1/Churrasco
+  - Cria um novo churrasco
+-POST - /api/v1/Participante/adicionar-participante
+  - Vincula um participante em um churrasco já existente
+-DELETE - /api/v1/Participante/remover-participante/{id}
+  - Exclui um participante de um churrasco
+
 ## Detalhes
 Venho estudando recentemente o padrão CQRS, portanto utilizei este projeto para, além da avaliação de vocês, para tentar consolidar meu conhecimento.
 Criei 3 projetos
