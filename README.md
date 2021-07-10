@@ -19,21 +19,21 @@ Criei 3 projetos
 
 Onde:
 - API
- - É o projeto Web API e contém:
-  - Application: Tentei utilizar esta pasta lógica como se fosse a camada "Application" do padrão CQRS, contendo então os Commands e Queries
-  - Configuration: Contém classes de configurações do projeto, como injeção de dependências, swagger, etc.
-  - Controllers: contém as controllers criadas no projeto (Churrasco e Participante)
-  - Enums: Enumeradores
-  - Mediatr: classes de configurações do mediatR
-  - ViewModels: ViewModels utilizadas pelas controlllers
+  - É o projeto Web API e contém:
+    - Application: Tentei utilizar esta pasta lógica como se fosse a camada "Application" do padrão CQRS, contendo então os Commands e Queries
+    - Configuration: Contém classes de configurações do projeto, como injeção de dependências, swagger, etc.
+    - Controllers: contém as controllers criadas no projeto (Churrasco e Participante)
+    - Enums: Enumeradores
+    - Mediatr: classes de configurações do mediatR
+    - ViewModels: ViewModels utilizadas pelas controlllers
 - Domain
- - É o projeto que representa a camada Domain do padrão CQRS
-  - Core: utilizei esta pasta lógica para centralizar objetos centrais, como interface de Repository etc.
-  - Dtos: contém classes de DTO utilizadas pelas Queries
-  - Interfaces: Interfaces de repositories específicos
-  - Models: classes de domínio
+  - É o projeto que representa a camada Domain do padrão CQRS
+    - Core: utilizei esta pasta lógica para centralizar objetos centrais, como interface de Repository etc.
+    - Dtos: contém classes de DTO utilizadas pelas Queries
+    - Interfaces: Interfaces de repositories específicos
+    - Models: classes de domínio
 - Infra
- - É o projeto que representa a camada infrastructure do padrão CQRS
-  - Data: contém implementações de repositórios e classe de contexto do entity framework
-  - Mappings: classes de mapeamento dos dominios
-  - Migrations: classes de migrations geradas pelo entity framework
+  - É o projeto que representa a camada infrastructure do padrão CQRS
+    - Data: contém implementações de repositórios e classe de contexto do entity framework
+    - Mappings: classes de mapeamento dos dominios
+    - Migrations: classes de migrations geradas pelo entity framework
