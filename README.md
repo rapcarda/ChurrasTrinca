@@ -30,8 +30,7 @@ Projeto consiste em agendamento de churrascos.
   - Exclui um participante de um churrasco
 
 ## Detalhes
-Venho estudando recentemente o padrão CQRS, portanto utilizei este projeto para, além da avaliação de vocês, para tentar consolidar meu conhecimento.
-Criei 3 projetos
+Projetos:
 - API
 - Domain
 - Infra
