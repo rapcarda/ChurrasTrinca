@@ -1,6 +1,6 @@
 # TrincaChurrasco
 
-Repositório responsável pelo desenvolvimento de aplica de avaliação empresa Trinca.
+Repositório responsável pelo desenvolvimento de aplicação de avaliação empresa Trinca.
 Projeto consiste em agendamento de churrascos.
 
 ## Recursos utilizados
