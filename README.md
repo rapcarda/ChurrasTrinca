@@ -9,6 +9,14 @@ Projeto consiste em agendamento de churrascos.
 - FluentValidation 10.3.0
 - MediatR 9.0.0
 - SqlServer 2019
+- Docker
+
+## Execução Local
+ Para executar localmente o projeto é necessário ter Docker instalado na máquina.
+ - Em algum terminal command ir até a raiz do projeto na pasta "docker"
+ - Executar o comando "docker-compose up"
+ - Aguardar alguns segundos (por volta de 1 minuto para que o banco de dados seja provisionado e o script de criação da base de dados seja executada)
+ - Executar a aplicação localmente (pelo Visual Studio) pois a string de conexão já esta configurada para o banco de dados recém criado no Docker.
 
 ## Endpoints liberados
 - GET - /api/v1/Churrasco/resumo/{type}
