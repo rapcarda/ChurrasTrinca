@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+
+    sql-server:
+        image: trinca-sql-server:latest
+        container_name: trinca-sql-server
+        build:
+            context: ../sql
+            dockerfile: ./Dockerfile
+        environment:
+        ports:
+            - "1433:1433"
+        environment:
+            SA_PASSWORD: "MeuDB@123"
+            ACCEPT_EULA: "Y"
